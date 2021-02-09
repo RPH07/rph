@@ -2,6 +2,14 @@
 <html>
 
 <head>
+    <!-- meta color  -->
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4fc3f7">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4fc3f7">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4fc3f7">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -21,14 +29,6 @@
 
     <!--navbar-->
     <div class="navbar-fixed">
-        <!-- Dropdown Structure -->
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">Instagram</a></li>
-            <li><a href="#!">Github</a></li>
-            <li><a href="#client">LinkedIn </a></li>
-            <li class="divider"></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
         <nav class="light-blue lighten-2">
             <div class="container">
                 <div class="nav-wrapper">
@@ -36,45 +36,52 @@
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i>
                     </a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#client">CLients</a></li>
-                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#client">Clients</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#portofolio">Portofolio</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact
-                                <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
+                        <li><a href="#contact">Contact me</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 
+
     <!--SideNav-->
-
-
     <ul id="slide-out" class="sidenav">
         <li>
             <div class="user-view">
                 <div class="background">
-                    <img src="img/slider/img1.jpg">
+                    <img src="img/banner sidenav/wp2.png">
                 </div>
-                <a href="#user"><img class="circle" src="img/profile/profile1.jpg"></a>
+                <a href="#home"><img class="circle" src="img/profile/profile4.jpg" alt="foto profile rey"></a>
                 <a href="#name"><span class="white-text name">Reynaldi Putra Hasli</span></a>
-                <a href="#email"><span class="white-text email">renldyputrahasli@gmail.com</span></a>
+                <a href="mailto:renaldyputrahasli@gmail.com">
+                    <span class="white-text email">renaldyputrahasli@gmail.com</span>
+                </a>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
+        <li><a class="subheader">Menu</a></li>
+        <li><a class="waves-effect" href="#about">About me</a></li>
+        <li><a class="waves-effect" href="#client">Clients</a></li>
+        <li><a class="waves-effect" href="#skills">Skills</a></li>
+        <li><a class="waves-effect" href="#portofolio">Portofolio</a></li>
         <li>
             <div class="divider"></div>
         </li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <li><a class="subheader">Social Media</a></li>
+        <li>
+            <a class="waves-effect" href="https://www.linkedin.com/in/reynaldi-putra-hasli/" target="_blank">
+                <i class="fab fa-linkedin"></i>Reynaldi Putra Hasli</a>
+        </li>
+        <li><a class="waves-effect" href="https://instagram.com/reyzen.xyz" target="_blank">
+                <i class="fab fa-instagram"></i>reyzen.xyz</a></li>
+        <li><a class="waves-effect" href="https://github.com/RPH07" target="_blank">
+                <i class="fab fa-github"></i>RPH07</a></li>
+        <li><a class="waves-effect" href="https://dribbble.com/rabb1t07" target="_blank">
+                <i class="fab fa-dribbble"></i>rabb1t07</a></li>
     </ul>
-
-
-
 
 
     <!--slider-->
@@ -94,36 +101,52 @@
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
             </li>
+            <li>
+                <img src="img/slider/img3.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
         </ul>
     </div>
 
 
-    <!--about us-->
+    <!--about me-->
     <section id="about" class="about scrollspy">
         <div class="container">
             <div class="row">
-                <h3 class="center ligth grey-text text-darken-3">About us</h3>
+                <h3 class="center ligth grey-text text-darken-3">About me</h3>
                 <div class="col m6 light">
-                    <h5>We are propesional</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt mollitia laudantium sequi.</p>
+                    <h5>Hi, i'm Reynaldi Putra Hasli</h5>
+                    <p> I am a growing web design who have an interest in technology,
+                        more precisely in the field of web developers</p>
                 </div>
                 <div class="col m6 light">
-                    <p>web development</p>
+                    <p>Web design</p>
+                    <div class="progress">
+                        <div class="determinate blue" style="width: 68%"></div>
+                    </div>
+                    <p>photography</p>
                     <div class="progress">
                         <div class="determinate blue" style="width: 70%"></div>
                     </div>
-
+                    <p>lorem ipsum</p>
+                    <div class="progress">
+                        <div class="determinate blue" style="width: 75%"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!--clients-->
     <div id="client" class="parallax-container scrollspy">
-        <div class="parallax"><img src="img/slider/img1.jpg"></div>
+        <div class="parallax"><img src="img/parallax/img1.jpg"></div>
 
         <div class="container clients">
-            <h3 class="center light white-text">Our Team</h3>
+            <h3 class="center light white-text">Lorem ipsum</h3>
             <div class="row">
                 <div class="col m4 s12 center">
                     <img src="img/clients/gojek.png" alt="">
@@ -139,34 +162,30 @@
     </div>
 
 
-    <!--Service-->
-
-    <section id="services" class="services grey lighten-3 scrollspy">
+    <!--Skills-->
+    <section id="skills" class="skills grey lighten-3 scrollspy">
         <div class="container">
             <div class="row">
-                <h3 class="center light grey-text text-darken-3">Our Services</h3>
-                <div class="col m4 s12">
+                <h3 class="center light grey-text text-darken-3">Skills</h3>
+                <div class="col m6 s12">
                     <div class="card-panel center white-text blue lighten-2">
+                        <i class="material-icons medium">camera_alt</i>
+                        <h5>photography</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ad.</p>
+                    </div>
+                </div>
+                <div class="col m6 s12">
+                    <div class="card-panel center blue lighten-2 white-text">
                         <i class="material-icons medium">desktop_windows</i>
-                        <h5>Web development</h5>
+                        <h5>Web design</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ad.</p>
                     </div>
                 </div>
-                <div class="col m4 s12">
-                    <div class="card-panel center blue lighten-2 white-text">
-                        <i class="material-icons medium">developer_mode</i>
-                        <h5>android development</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ad.</p>
-                    </div>
-                </div>
-                <div class="col m4 s12">
-                    <div class="card-panel center blue lighten-2 white-text">
-                        <i class="material-icons medium">games</i>
-                        <h5>Game development</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ad.</p>
-                    </div>
-                </div>
+                <!-- tulis/paste kodenya dibawag ini -->
+
             </div>
+            <!-- jangan tulis/paste kodenya disini -->
+        </div>
         </div>
     </section>
 
@@ -214,7 +233,7 @@
             <div class="row">
                 <div class="col m5 s12">
                     <div class="card-panel blue lighten-2 center white-text">
-                        <i class="material-icons">email</i>
+                        <i class="material-icons">contact_mail</i>
                         <h5>Contact</h5>
                         <p>please contact me with the contact below</p>
                     </div>
@@ -229,11 +248,22 @@
                         </li>
                         <li class="collection-item blue lighten-2">
                             <i class="fab fa-instagram white-text"></i>
-                            <a href="" target="_blank" class="white-text">reyzen.xyz</a>
+                            <a href="https://instagram.com/reyzen.xyz" target="_blank" class="white-text">reyzen.xyz</a>
+                        </li>
+                        <li class="collection-item blue lighten-2">
+                            <i class="fab fa-github white-text"></i>
+                            <a href="https://github.com/rph07" target="_blank" class="white-text">RPH07</a>
+                        </li>
+                        <li class="collection-item blue lighten-2">
+                            <i class="fab fa-dribbble white-text"></i>
+                            <a href="https://dribbble.com/rabb1t07" target="_blank" class="white-text">Reynaldi Putra
+                                Hasli</a>
                         </li>
                     </ul>
                 </div>
 
+
+                <!-- form -->
                 <div class="col m7 s12">
                     <form method="POST" name="contact" data-netlify="true" action="/?succes=true">
                         <div class="card-panel">
@@ -260,6 +290,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- footer -->
     <footer class="blue lighten-2 white-text center">
